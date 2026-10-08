@@ -1,0 +1,46 @@
+{
+  "cli_version": "0.11.4",
+  "checkpoint_id": "01M4DBNXG429YSG5ZMHM1S7D6E",
+  "strategy": "manual-commit",
+  "branch": "main",
+  "checkpoints_count": 2,
+  "files_touched": [
+    "docs/codexray/codexray.css",
+    "docs/codexray/index.html",
+    "docs/codexray/samples/01_hello_macros.c",
+    "docs/codexray/samples/02_functions.c",
+    "docs/codexray/samples/03_recursion_factorial.c",
+    "docs/codexray/samples/04_array_loop.c",
+    "docs/codexray/samples/05_pointers_swap.c",
+    "docs/codexray/samples/06_structure.c",
+    "docs/codexray/samples/07_conditional_compilation.c",
+    "docs/index.html",
+    "docs/style.css",
+    "tools/build_codexray.py",
+    "tools/c_lab_template.html",
+    "tools/codexray_template.html"
+  ],
+  "sessions": [
+    {
+      "metadata": "/0/metadata.json",
+      "transcript": "/0/full.jsonl",
+      "compact_transcript": "/0/transcript.jsonl",
+      "content_hash": "/0/content_hash.txt",
+      "prompt": "/0/prompt.txt"
+    }
+  ],
+  "token_usage": {
+    "input_tokens": 236,
+    "cache_creation_tokens": 537655,
+    "cache_read_tokens": 20004817,
+    "output_tokens": 115317,
+    "api_call_count": 113,
+    "subagent_tokens": {
+      "input_tokens": 0,
+      "cache_creation_tokens": 0,
+      "cache_read_tokens": 0,
+      "output_tokens": 0,
+      "api_call_count": 0
+    }
+  }
+}
