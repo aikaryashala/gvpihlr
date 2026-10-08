@@ -10,11 +10,11 @@
   const notesBtn = document.getElementById('notesBtn');
   let current = 0;
 
-  // Footer on every slide: AI Karyashala (left), slide number, Rohini Kumar Barla (right)
+  // Footer on every slide: AI Karyashala logo (left), slide number, Rohini Kumar Barla (right)
   slides.forEach((slide, i) => {
     const footer = document.createElement('div');
     footer.className = 'slide-footer';
-    footer.innerHTML = '<span class="brand"><img src="../assets/aikaryashala_logo.png" alt="">AI Karyashala</span><span class="num">' + (i + 1) + ' / ' + slides.length + '</span><span>Rohini Kumar Barla</span>';
+    footer.innerHTML = '<span class="brand"><img src="../assets/aikaryashala_logo.png" alt="AI Karyashala"></span><span class="num">' + (i + 1) + ' / ' + slides.length + '</span><span>Rohini Kumar Barla</span>';
     stage.appendChild(footer);
     footer.hidden = true;
     slide.footer = footer;
