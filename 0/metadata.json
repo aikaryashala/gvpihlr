@@ -1,0 +1,82 @@
+{
+  "cli_version": "0.11.4",
+  "checkpoint_id": "01M4CWQFPKVQPQQT3TZKJQTNAR",
+  "session_id": "2732a64d-2b42-4694-883d-8567aadd84a7",
+  "strategy": "manual-commit",
+  "created_at": "2026-10-08T04:35:50.716176Z",
+  "branch": "main",
+  "checkpoints_count": 4,
+  "save_step_count": 3,
+  "files_touched": [
+    "docs/.nojekyll",
+    "docs/index.html",
+    "docs/style.css"
+  ],
+  "agent": "Claude Code",
+  "model": "claude-opus-5-5",
+  "turn_id": "fc7d84ea554c",
+  "compact_transcript_start": 0,
+  "token_usage": {
+    "input_tokens": 122,
+    "cache_creation_tokens": 180498,
+    "cache_read_tokens": 6351586,
+    "output_tokens": 71423,
+    "api_call_count": 60
+  },
+  "session_metrics": {
+    "turn_count": 4
+  },
+  "initial_attribution": {
+    "calculated_at": "2026-10-08T04:35:50.500829Z",
+    "agent_lines": 369,
+    "agent_removed": 0,
+    "human_added": 1220,
+    "human_modified": 2,
+    "human_removed": 0,
+    "total_committed": 1590,
+    "total_lines_changed": 1591,
+    "agent_percentage": 23.192960402262727,
+    "metric_version": 2
+  },
+  "prompt_attributions": [
+    {
+      "checkpoint_number": 1,
+      "user_lines_added": 0,
+      "user_lines_removed": 0,
+      "agent_lines_added": 0,
+      "agent_lines_removed": 0
+    },
+    {
+      "checkpoint_number": 2,
+      "user_lines_added": 0,
+      "user_lines_removed": 0,
+      "agent_lines_added": 289,
+      "agent_lines_removed": 0
+    },
+    {
+      "checkpoint_number": 3,
+      "user_lines_added": 0,
+      "user_lines_removed": 0,
+      "agent_lines_added": 313,
+      "agent_lines_removed": 0
+    },
+    {
+      "checkpoint_number": 4,
+      "user_lines_added": 1185,
+      "user_lines_removed": 1,
+      "agent_lines_added": 405,
+      "agent_lines_removed": 0,
+      "user_added_per_file": {
+        "docs/index.html": 15,
+        "docs/slides/images/qr-updates.svg": 1,
+        "docs/slides/index.html": 730,
+        "docs/slides/slides.css": 321,
+        "docs/slides/slides.js": 98,
+        "docs/style.css": 20
+      },
+      "user_removed_per_file": {
+        "docs/style.css": 1
+      }
+    }
+  ]
+}

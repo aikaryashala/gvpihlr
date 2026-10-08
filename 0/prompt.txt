@@ -1,0 +1,17 @@
+<pasted_content id="5d97">
+This is a new repo specifically for GVPIHLR - GAYATRI VIDYA PARISHAD
+  INSTITUTE OF HIGHER LEARNING AND RESEARCH (Deemed to be University under Distinct
+  Category under Section 3 of the UGC Act, 1956)
+  Kommadi, Madhurawada, Visakhapatnam – 530 048, Andhra Pradesh. This Private University
+  started this year
+</pasted_content id="5d97">
+
+ read @README.md create a landing page, browse internet and get the correct details. Keep a place for Material BOX showing comming soon..., Use simple style to create the html pages.
+
+---
+
+The purspose of this page is for AI Karyashala to Introduce them to Oppurtunities in Software Development and Innovation space: https://docs.google.com/forms/d/e/REDACTED/viewform?usp=publish-editor add this form for them to get updates and newsletters. Keep the whole site in @docs/ folder. Add .nojekyll empty file inside docs folder as well. A logo is already placed inside @docs/assets/aikaryashala_logo.png. use it and make it.
+
+---
+
+check https://aikaryashala.com and make the UI like that. The last line in the footer is not needed: This is not the official university website. For official notices visit gvpihlr.in.
