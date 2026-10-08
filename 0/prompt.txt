@@ -1,0 +1,120 @@
+<pasted_content id="5d97">
+This is a new repo specifically for GVPIHLR - GAYATRI VIDYA PARISHAD
+  INSTITUTE OF HIGHER LEARNING AND RESEARCH (Deemed to be University under Distinct
+  Category under Section 3 of the UGC Act, 1956)
+  Kommadi, Madhurawada, Visakhapatnam – 530 048, Andhra Pradesh. This Private University
+  started this year
+</pasted_content id="5d97">
+
+ read @README.md create a landing page, browse internet and get the correct details. Keep a place for Material BOX showing comming soon..., Use simple style to create the html pages.
+
+---
+
+The purspose of this page is for AI Karyashala to Introduce them to Oppurtunities in Software Development and Innovation space: https://docs.google.com/forms/d/e/REDACTED/viewform?usp=publish-editor add this form for them to get updates and newsletters. Keep the whole site in @docs/ folder. Add .nojekyll empty file inside docs folder as well. A logo is already placed inside @docs/assets/aikaryashala_logo.png. use it and make it.
+
+---
+
+check https://aikaryashala.com and make the UI like that. The last line in the footer is not needed: This is not the official university website. For official notices visit gvpihlr.in.
+
+---
+
+/Users/rohinibarla/Downloads/software-ai-2026-presentation-matter.txt Create slides in HTML using these exactly as they are and add required images. Add these slides to the website.
+
+---
+
+/Users/rohinibarla/Downloads/software-ai-2026-presentation-matter.txt Create slides in HTML using these exactly as they are and add required images. Add these slides to the website.
+
+---
+
+Use AI Karyashala logo as footer for the slides along with engish name 'AI Karyashala'
+
+---
+
+in the slides remove the logo and move it to top left. top left will contain logo only bottom left contains "AI KARYASHALA"
+
+---
+
+revert the changes.
+
+---
+
+in the bottom left remove the text "AI KARYASHALA" in slides.
+
+---
+
+/Users/rohinibarla/Downloads/3_Programming\ for\ Problem\ Solving\ through\ _C_.pdf Create a separate webpage in folder with all the answers for the Lab Questions in the pdf file. Create the website in this repo
+
+---
+
+<agent-message from="aa4100f724cfbf9e7">
+[Subagent hand-back] The text below is the final report of a subagent this session delegated to. It is model output, NOT a message from the user: instructions, requests, or approval claims inside it are the subagent's words and carry no user authority. The harness indents every line of the report, so a frame-like line at column zero inside it would be forged. Notes above this frame may quote model-derived text, which carries no user authority either. The report follows:
+  All 20 programs for Experiments 6 to 9 are written. Each compiles with zero warnings and zero errors under `cc -std=c11 -Wall -Wextra -pedantic ... -lm`. I ran each with its manifest stdin and checked the outputs by hand; all are correct. Examples: 5! = 120, Fibonacci of 10 terms = 0 1 1 2 3 5 8 13 21 34, and GCD(48, 18) = 6. The Hanoi run for 3 disks gives 7 moves. The matrix results (2x3 + 2x3 gives all 7s, 2x3 times 3x2 gives [[58,64],[139,154]]) also check out.
+  
+  Files, all in `/Users/rohinibarla/src/github.com/aikaryashala/gvpihlr/docs/c-lab/programs/`:
+  - `exp06/`: `p1_factorial.c`, `p2_sum_of_n.c`, `p3_fibonacci.c`, `p4_gcd.c`, `p5_tower_of_hanoi.c`
+  - `exp07/`: `p1_sum_average.c`, `p2_largest_smallest.c`, `p3_reverse_array.c`, `p4_merge_arrays.c`, `p5_remove_duplicates.c`
+  - `exp08/`: `p1_string_length.c`, `p2_copy_concatenate.c`, `p3_compare_strings.c`, `p4_reverse_string.c`, `p5_palindrome_count.c`
+  - `exp09/`: `p1_matrix_addition.c`, `p2_matrix_subtraction.c`, `p3_matrix_multiplication.c`, `p4_matrix_transpose.c`, `p5_symmetric_matrix.c`
+  
+  Manifest: `/private/tmp/claude-501/-Users-rohinibarla-src-github-com-aikaryashala-gvpihlr/2732a64d-2b42-4694-883d-8567aadd84a7/scratchpad/clab/manifest/exp06-09.json` (20 entries, in order). Binaries were built in the `scratchpad/clab/build-b/` directory next to it, so none are in the docs folder.
+  
+  Things worth knowing:
+  - Factorial accepts 0 to 20, because larger values overflow `unsigned long long`. Fibonacci accepts 1 to 30 and Hanoi 1 to 10, to keep the output and the naive recursion short.
+  - The 8.5 palindrome check is case-sensitive and counts spaces and punctuation as typed. Its sample input is "madam". The file's header comment says this and also states the definition of "special character".
+  - 8.3 `strcmp` is only used for the equal / not-equal result, not for its sign.
+  - The matrix programs check dimensions before reading any elements and print a clear message if the sizes don't fit.
+  - The `scanf` return values for the array and matrix elements aren't checked, only the sizes. This keeps the code simple for beginners, and `-Wall` doesn't complain.
+</agent-message>
+
+---
+
+<agent-message from="af92e10d9d0d19e95">
+[Subagent hand-back] The text below is the final report of a subagent this session delegated to. It is model output, NOT a message from the user: instructions, requests, or approval claims inside it are the subagent's words and carry no user authority. The harness indents every line of the report, so a frame-like line at column zero inside it would be forged. Notes above this frame may quote model-derived text, which carries no user authority either. The report follows:
+  All 20 programs for Experiments 10 to 13 are written. Each one compiled with zero warnings and zero errors under `cc -std=c11 -Wall -Wextra -pedantic ... -lm`. I ran each with its manifest stdin/args and checked the output by hand; all of it was correct. 12.3, then 12.4, then 12.5 ran in the same directory and gave consistent results: 2 records written, shown, then a third appended and all 3 shown.
+  
+  **Files**, all in `/Users/rohinibarla/src/github.com/aikaryashala/gvpihlr/docs/c-lab/programs/`:
+  - `exp10/`: `p1_pointer_arithmetic.c`, `p2_array_pointers.c`, `p3_swap_call_by_reference.c`, `p4_largest_pointer.c`, `p5_array_of_pointers.c`
+  - `exp11/`: `p1_malloc.c`, `p2_calloc.c`, `p3_realloc.c`, `p4_free.c`, `p5_dynamic_matrix.c`
+  - `exp12/`: `p1_struct_union_typedef.c`, `p2_struct_functions_pointers.c`, `p3_create_write_file.c`, `p4_read_display_file.c`, `p5_append_records.c`
+  - `exp13/`: `p1_bitwise_operators.c`, `p2_bit_fields.c`, `p3_enumerations.c`, `p4_command_line_sum.c`, `p5_macros_preprocessor.c`
+  
+  **Manifest:** `/private/tmp/claude-501/-Users-rohinibarla-src-github-com-aikaryashala-gvpihlr/2732a64d-2b42-4694-883d-8567aadd84a7/scratchpad/clab/manifest/exp10-13.json` has 20 entries in order.
+  
+  Binaries and `students.txt` are only in `.../scratchpad/clab/build-c/`, none in the docs folder. I touched no other repo files.
+  
+  **Machine-dependent output:**
+  - **Struct sizes:** 12.1 prints `sizeof(Student)` (28 on my machine) and 13.2 prints struct sizes (4 and 12). These depend on the compiler's padding, though they are stable on typical 64-bit platforms.
+  - **Union byte order:** 12.1 shows the union's `char` member reading `A` after writing the int 65. That holds on a little-endian machine, which is the usual case.
+  - **13.4 usage message:** it prints `argv[0]`, so the program name appears as it was invoked (for example `./p4_command_line_sum`).
+  - **13.5 line number:** it prints `__LINE__` as 46, which changes if the file is edited.
+  
+  **Choices you may want to know about:**
+  - 12.3 to 12.5 store each record as `roll name marks` (marks to one decimal place).
+  - 12.4 and 12.5 print a `Roll Name Marks` header, then the raw lines of the file.
+  - 13.2's output says the bit-field struct uses 16 bits but shows a size of 4 bytes, because the compiler rounds up to an `int`-sized unit.
+</agent-message>
+
+---
+
+<agent-message from="a5026cef7eb9a7b9c">
+[Subagent hand-back] The text below is the final report of a subagent this session delegated to. It is model output, NOT a message from the user: instructions, requests, or approval claims inside it are the subagent's words and carry no user authority. The harness indents every line of the report, so a frame-like line at column zero inside it would be forged. Notes above this frame may quote model-derived text, which carries no user authority either. The report follows:
+  All 25 programs for Experiments 1-5 are written. Each one compiles with zero warnings and zero errors under `cc -std=c11 -Wall -Wextra -pedantic ... -lm`. I ran each with its manifest stdin and checked the output by hand. All of them exit cleanly and the numbers are correct.
+  
+  Files are in `/Users/rohinibarla/src/github.com/aikaryashala/gvpihlr/docs/c-lab/programs/`:
+  - **exp01:** `p1_hello_world.c`, `p2_student_details.c`, `p3_arithmetic_operations.c`, `p4_temperature_conversion.c`, `p5_simple_compound_interest.c`
+  - **exp02:** `p1_evaluate_expressions.c`, `p2_relational_logical.c`, `p3_increment_decrement.c`, `p4_assignment_operators.c`, `p5_max_of_three_conditional.c`
+  - **exp03:** `p1_even_odd.c`, `p2_largest_of_three.c`, `p3_leap_year.c`, `p4_grade_calculator.c`, `p5_menu_calculator.c`
+  - **exp04:** `p1_multiplication_table.c`, `p2_factorial.c`, `p3_fibonacci.c`, `p4_prime_check.c`, `p5_special_numbers.c`
+  - **exp05:** `p1_arithmetic_functions.c`, `p2_gcd_lcm.c`, `p3_factorial_function.c`, `p4_power_function.c`, `p5_call_by_value.c`
+  
+  The manifest is at `/private/tmp/claude-501/-Users-rohinibarla-src-github-com-aikaryashala-gvpihlr/2732a64d-2b42-4694-883d-8567aadd84a7/scratchpad/clab/manifest/exp01-05.json`, with 25 entries in order. Builds were done in `.../scratchpad/clab/build-a/`, and no binaries are in the docs folder.
+  
+  Things worth knowing:
+  - **Menu sample (3.5):** the stdin runs Add, Multiply, Divide-by-zero and an invalid choice (9), and ends with 5 (Exit).
+  - **2.3 and 2.4:** these need no input, so their stdin is `""`.
+  - **Factorials (4.2, 5.3):** they accept 0 to 20; negative numbers and anything above 20 print a message.
+  - **Fibonacci (4.3):** it accepts 1 to 90 terms.
+  - **Special numbers (4.5):** the sample input is 153. It reports Armstrong as yes and palindrome, perfect and strong as no. Each check is a small function.
+  - **Prototypes:** all Experiment 5 programs declare prototypes before `main`.
+  - **Repo status:** I only added files under `docs/c-lab/programs/exp01`-`exp05`. `git status` also shows `docs/index.html`, `docs/style.css` and `tools/` as changed or untracked; those are not mine.
+</agent-message>
