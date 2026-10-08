@@ -1,0 +1,591 @@
+[
+  {
+    "exp": 1,
+    "num": 1,
+    "title": "Display \"Hello World\"",
+    "file": "exp01/p1_hello_world.c",
+    "stdin": "",
+    "args": [],
+    "note": "Prints the text Hello World using printf. Every C program starts running from main()."
+  },
+  {
+    "exp": 1,
+    "num": 2,
+    "title": "Read and print student details",
+    "file": "exp01/p2_student_details.c",
+    "stdin": "Ravi Kumar\n101\n85.5\n",
+    "args": [],
+    "note": "Reads the name, roll number and marks with scanf, then prints them with labels. The name uses %49[^\\n] so it can contain spaces."
+  },
+  {
+    "exp": 1,
+    "num": 3,
+    "title": "Perform arithmetic operations",
+    "file": "exp01/p3_arithmetic_operations.c",
+    "stdin": "17 5\n",
+    "args": [],
+    "note": "Reads two integers and prints their sum, difference, product, quotient and remainder. Division is skipped when the second number is 0."
+  },
+  {
+    "exp": 1,
+    "num": 4,
+    "title": "Convert temperature (°C ↔ °F)",
+    "file": "exp01/p4_temperature_conversion.c",
+    "stdin": "36.6\n98.6\n",
+    "args": [],
+    "note": "Converts Celsius to Fahrenheit with F = C*9/5 + 32, and Fahrenheit to Celsius with C = (F-32)*5/9."
+  },
+  {
+    "exp": 1,
+    "num": 5,
+    "title": "Calculate simple and compound interest",
+    "file": "exp01/p5_simple_compound_interest.c",
+    "stdin": "10000\n5\n2\n",
+    "args": [],
+    "note": "Simple interest is P*R*T/100. Compound interest is P*(1+R/100)^T - P, computed with pow() from math.h."
+  },
+  {
+    "exp": 2,
+    "num": 1,
+    "title": "Evaluate arithmetic expressions.",
+    "file": "exp02/p1_evaluate_expressions.c",
+    "stdin": "10 4 3\n",
+    "args": [],
+    "note": "Evaluates several expressions on three numbers to show that * / % are done before + - and that brackets change the order."
+  },
+  {
+    "exp": 2,
+    "num": 2,
+    "title": "Demonstrate relational and logical operators.",
+    "file": "exp02/p2_relational_logical.c",
+    "stdin": "7 3\n",
+    "args": [],
+    "note": "Prints the result of each relational and logical operator. C shows true as 1 and false as 0."
+  },
+  {
+    "exp": 2,
+    "num": 3,
+    "title": "Demonstrate increment/decrement operators.",
+    "file": "exp02/p3_increment_decrement.c",
+    "stdin": "",
+    "args": [],
+    "note": "Shows that x++ gives the old value before increasing, while ++x increases first and then gives the new value. The same holds for -- ."
+  },
+  {
+    "exp": 2,
+    "num": 4,
+    "title": "Demonstrate assignment operators.",
+    "file": "exp02/p4_assignment_operators.c",
+    "stdin": "",
+    "args": [],
+    "note": "Applies +=, -=, *=, /= and %= one after another to a variable and prints the value after each step."
+  },
+  {
+    "exp": 2,
+    "num": 5,
+    "title": "Find the maximum of three numbers using the conditional operator",
+    "file": "exp02/p5_max_of_three_conditional.c",
+    "stdin": "12 45 29\n",
+    "args": [],
+    "note": "Uses the conditional operator (condition ? a : b), nested once, to pick the largest of three numbers."
+  },
+  {
+    "exp": 3,
+    "num": 1,
+    "title": "Check whether a number is even or odd",
+    "file": "exp03/p1_even_odd.c",
+    "stdin": "27\n",
+    "args": [],
+    "note": "If the remainder of n divided by 2 is 0 the number is even, otherwise it is odd."
+  },
+  {
+    "exp": 3,
+    "num": 2,
+    "title": "Find the largest among three numbers",
+    "file": "exp03/p2_largest_of_three.c",
+    "stdin": "12 45 29\n",
+    "args": [],
+    "note": "Compares a with b first, then compares the winner with c using nested if statements."
+  },
+  {
+    "exp": 3,
+    "num": 3,
+    "title": "Determine whether a year is a leap year",
+    "file": "exp03/p3_leap_year.c",
+    "stdin": "2024\n",
+    "args": [],
+    "note": "A year is a leap year if divisible by 400, or divisible by 4 but not by 100. An if-else-if chain checks these rules in order."
+  },
+  {
+    "exp": 3,
+    "num": 4,
+    "title": "Calculate grades based on marks",
+    "file": "exp03/p4_grade_calculator.c",
+    "stdin": "78\n",
+    "args": [],
+    "note": "An if-else-if ladder checks the marks from the highest grade boundary downwards and prints the first grade that matches."
+  },
+  {
+    "exp": 3,
+    "num": 5,
+    "title": "Develop a menu-driven calculator using switch",
+    "file": "exp03/p5_menu_calculator.c",
+    "stdin": "1\n12 5\n3\n4 7\n4\n10 0\n9\n5\n",
+    "args": [],
+    "note": "Shows a menu inside a do-while loop and uses switch to pick the operation. The loop ends when the user enters 5."
+  },
+  {
+    "exp": 4,
+    "num": 1,
+    "title": "Generate multiplication tables",
+    "file": "exp04/p1_multiplication_table.c",
+    "stdin": "7\n",
+    "args": [],
+    "note": "A for loop runs i from 1 to 10 and prints n x i for each value."
+  },
+  {
+    "exp": 4,
+    "num": 2,
+    "title": "Compute factorial of a number",
+    "file": "exp04/p2_factorial.c",
+    "stdin": "5\n",
+    "args": [],
+    "note": "Multiplies 1*2*...*n in a loop using unsigned long long. Negative numbers are rejected and n above 20 would overflow."
+  },
+  {
+    "exp": 4,
+    "num": 3,
+    "title": "Generate Fibonacci series",
+    "file": "exp04/p3_fibonacci.c",
+    "stdin": "10\n",
+    "args": [],
+    "note": "Starts with 0 and 1; each new term is the sum of the previous two. The loop prints the requested number of terms."
+  },
+  {
+    "exp": 4,
+    "num": 4,
+    "title": "Check prime numbers",
+    "file": "exp04/p4_prime_check.c",
+    "stdin": "29\n",
+    "args": [],
+    "note": "Tries every divisor from 2 while i*i <= n. If any divides n it is not prime; numbers below 2 are not prime."
+  },
+  {
+    "exp": 4,
+    "num": 5,
+    "title": "Check Armstrong, palindrome, perfect, and strong numbers",
+    "file": "exp04/p5_special_numbers.c",
+    "stdin": "153\n",
+    "args": [],
+    "note": "Four small functions test the number: Armstrong (digit powers sum to n), palindrome (reverse equals n), perfect (proper divisors sum to n) and strong (digit factorials sum to n)."
+  },
+  {
+    "exp": 5,
+    "num": 1,
+    "title": "Perform arithmetic operations",
+    "file": "exp05/p1_arithmetic_functions.c",
+    "stdin": "15 4\n",
+    "args": [],
+    "note": "add, subtract, multiply and divide are separate functions that main() calls with the two numbers and prints the returned values."
+  },
+  {
+    "exp": 5,
+    "num": 2,
+    "title": "Find GCD and LCM",
+    "file": "exp05/p2_gcd_lcm.c",
+    "stdin": "12 18\n",
+    "args": [],
+    "note": "The gcd function uses Euclid's algorithm (repeat a, b = b, a%b until b is 0). The LCM is then a*b divided by the GCD."
+  },
+  {
+    "exp": 5,
+    "num": 3,
+    "title": "Compute factorial",
+    "file": "exp05/p3_factorial_function.c",
+    "stdin": "6\n",
+    "args": [],
+    "note": "The factorial function multiplies 1 to n in a loop and returns the result to main()."
+  },
+  {
+    "exp": 5,
+    "num": 4,
+    "title": "Find power of a number",
+    "file": "exp05/p4_power_function.c",
+    "stdin": "2\n10\n",
+    "args": [],
+    "note": "The power function multiplies the base by itself exp times in a loop and returns the result."
+  },
+  {
+    "exp": 5,
+    "num": 5,
+    "title": "Demonstrate parameter passing using call by value concept.",
+    "file": "exp05/p5_call_by_value.c",
+    "stdin": "10 20\n",
+    "args": [],
+    "note": "swap() receives copies of x and y, so swapping them inside the function changes only the copies. The before and after values in main() are the same."
+  },
+  {
+    "exp": 6,
+    "num": 1,
+    "title": "Factorial",
+    "file": "exp06/p1_factorial.c",
+    "stdin": "5\n",
+    "args": [],
+    "note": "Recursion: factorial(n) calls factorial(n-1) and multiplies by n, until it reaches 0 where it returns 1."
+  },
+  {
+    "exp": 6,
+    "num": 2,
+    "title": "Sum of first N natural numbers",
+    "file": "exp06/p2_sum_of_n.c",
+    "stdin": "10\n",
+    "args": [],
+    "note": "sum(n) returns n plus sum(n-1). The recursion stops when n is 0, which returns 0."
+  },
+  {
+    "exp": 6,
+    "num": 3,
+    "title": "Fibonacci series",
+    "file": "exp06/p3_fibonacci.c",
+    "stdin": "10\n",
+    "args": [],
+    "note": "A loop prints fib(0) to fib(n-1). Each fib(i) is computed recursively as fib(i-1) + fib(i-2), with fib(0)=0 and fib(1)=1."
+  },
+  {
+    "exp": 6,
+    "num": 4,
+    "title": "GCD of two numbers",
+    "file": "exp06/p4_gcd.c",
+    "stdin": "48 18\n",
+    "args": [],
+    "note": "Euclid's method: gcd(a, b) is the same as gcd(b, a % b). When b becomes 0, the answer is a."
+  },
+  {
+    "exp": 6,
+    "num": 5,
+    "title": "Tower of Hanoi",
+    "file": "exp06/p5_tower_of_hanoi.c",
+    "stdin": "3\n",
+    "args": [],
+    "note": "To move n disks, first move n-1 disks to the spare peg, then move the biggest disk, then move the n-1 disks on top of it. Each step is printed."
+  },
+  {
+    "exp": 7,
+    "num": 1,
+    "title": "Find sum and average of array elements",
+    "file": "exp07/p1_sum_average.c",
+    "stdin": "5\n10 20 30 40 50\n",
+    "args": [],
+    "note": "Reads the elements into an array while adding them up. The average is the sum divided by the number of elements."
+  },
+  {
+    "exp": 7,
+    "num": 2,
+    "title": "Find largest and smallest element in an array",
+    "file": "exp07/p2_largest_smallest.c",
+    "stdin": "6\n12 45 7 89 23 3\n",
+    "args": [],
+    "note": "Starts by assuming the first element is both largest and smallest, then compares every other element and updates them."
+  },
+  {
+    "exp": 7,
+    "num": 3,
+    "title": "Reverse an array",
+    "file": "exp07/p3_reverse_array.c",
+    "stdin": "5\n1 2 3 4 5\n",
+    "args": [],
+    "note": "Swaps the first element with the last, the second with the second-last, and so on until the middle is reached."
+  },
+  {
+    "exp": 7,
+    "num": 4,
+    "title": "Merge two arrays",
+    "file": "exp07/p4_merge_arrays.c",
+    "stdin": "3\n1 2 3\n4\n10 20 30 40\n",
+    "args": [],
+    "note": "Copies all elements of the first array into a new array, then copies the elements of the second array right after them."
+  },
+  {
+    "exp": 7,
+    "num": 5,
+    "title": "Remove duplicate elements in an array",
+    "file": "exp07/p5_remove_duplicates.c",
+    "stdin": "8\n1 2 2 3 4 3 5 1\n",
+    "args": [],
+    "note": "Builds a new array of unique values: an element is added only if it is not already present in the new array."
+  },
+  {
+    "exp": 8,
+    "num": 1,
+    "title": "Find string length without strlen()",
+    "file": "exp08/p1_string_length.c",
+    "stdin": "Hello World\n",
+    "args": [],
+    "note": "Reads the line with fgets, removes the newline, then counts characters one by one until the end-of-string character '\\0'."
+  },
+  {
+    "exp": 8,
+    "num": 2,
+    "title": "Copy and concatenate strings",
+    "file": "exp08/p2_copy_concatenate.c",
+    "stdin": "Good\nMorning\n",
+    "args": [],
+    "note": "Copies and joins the strings character by character with loops, and then repeats the same tasks using strcpy() and strcat() so the results can be compared."
+  },
+  {
+    "exp": 8,
+    "num": 3,
+    "title": "Compare two strings",
+    "file": "exp08/p3_compare_strings.c",
+    "stdin": "apple\napple\n",
+    "args": [],
+    "note": "Moves along both strings while the characters match. If both strings end together they are equal. The result is also checked with strcmp()."
+  },
+  {
+    "exp": 8,
+    "num": 4,
+    "title": "Reverse a string",
+    "file": "exp08/p4_reverse_string.c",
+    "stdin": "programming\n",
+    "args": [],
+    "note": "Finds the length, then swaps the first and last characters, the second and second-last, and so on."
+  },
+  {
+    "exp": 8,
+    "num": 5,
+    "title": "Check palindrome and count vowels, digits, and special characters",
+    "file": "exp08/p5_palindrome_count.c",
+    "stdin": "madam\n",
+    "args": [],
+    "note": "Compares characters from both ends to check for a palindrome, then goes through the string once, counting vowels, digits and special characters (anything that is not a letter, digit or space)."
+  },
+  {
+    "exp": 9,
+    "num": 1,
+    "title": "Matrix addition",
+    "file": "exp09/p1_matrix_addition.c",
+    "stdin": "2 3\n2 3\n1 2 3\n4 5 6\n6 5 4\n3 2 1\n",
+    "args": [],
+    "note": "Both matrices must have the same size. Each element of the result is the sum of the elements at the same position."
+  },
+  {
+    "exp": 9,
+    "num": 2,
+    "title": "Matrix subtraction",
+    "file": "exp09/p2_matrix_subtraction.c",
+    "stdin": "2 3\n2 3\n9 8 7\n6 5 4\n1 2 3\n4 5 6\n",
+    "args": [],
+    "note": "Both matrices must have the same size. Each element of the result is the first matrix element minus the second matrix element at the same position."
+  },
+  {
+    "exp": 9,
+    "num": 3,
+    "title": "Matrix multiplication",
+    "file": "exp09/p3_matrix_multiplication.c",
+    "stdin": "2 3\n3 2\n1 2 3\n4 5 6\n7 8\n9 10\n11 12\n",
+    "args": [],
+    "note": "The columns of the first matrix must equal the rows of the second. Each result element is the sum of products of a row of the first matrix with a column of the second."
+  },
+  {
+    "exp": 9,
+    "num": 4,
+    "title": "Matrix transpose",
+    "file": "exp09/p4_matrix_transpose.c",
+    "stdin": "2 3\n1 2 3\n4 5 6\n",
+    "args": [],
+    "note": "The transpose swaps rows and columns, so element [i][j] of the original becomes element [j][i]."
+  },
+  {
+    "exp": 9,
+    "num": 5,
+    "title": "Check whether a matrix is symmetric",
+    "file": "exp09/p5_symmetric_matrix.c",
+    "stdin": "3 3\n1 2 3\n2 4 5\n3 5 6\n",
+    "args": [],
+    "note": "A symmetric matrix must be square and equal to its transpose. The program compares each element with its mirror across the diagonal."
+  },
+  {
+    "exp": 10,
+    "num": 1,
+    "title": "Demonstrate pointer arithmetic.",
+    "file": "exp10/p1_pointer_arithmetic.c",
+    "stdin": "",
+    "args": [],
+    "note": "Adding 1 to an int pointer moves it to the next int, not the next byte. Subtracting two pointers gives the number of elements between them."
+  },
+  {
+    "exp": 10,
+    "num": 2,
+    "title": "Access one-dimensional arrays using pointers.",
+    "file": "exp10/p2_array_pointers.c",
+    "stdin": "5\n1 2 3 4 5\n",
+    "args": [],
+    "note": "The name of an array is the address of its first element, so *(p + i) is the same as arr[i]. The program reads and prints the array using pointer notation."
+  },
+  {
+    "exp": 10,
+    "num": 3,
+    "title": "Swap two numbers using call by reference.",
+    "file": "exp10/p3_swap_call_by_reference.c",
+    "stdin": "3 8\n",
+    "args": [],
+    "note": "The addresses of x and y are passed to swap(), which uses * to exchange the values stored there. This is why the change is visible in main()."
+  },
+  {
+    "exp": 10,
+    "num": 4,
+    "title": "Find the largest element in an array using pointers.",
+    "file": "exp10/p4_largest_pointer.c",
+    "stdin": "5\n3 9 -2 7 4\n",
+    "args": [],
+    "note": "A pointer walks through the array, and the largest value seen so far is kept in max. The pointer is dereferenced with * to compare each element."
+  },
+  {
+    "exp": 10,
+    "num": 5,
+    "title": "Demonstrate arrays of pointers.",
+    "file": "exp10/p5_array_of_pointers.c",
+    "stdin": "",
+    "args": [],
+    "note": "An array of int pointers holds the addresses of three variables, and an array of char pointers holds four strings. Changing *nums[1] changes the original variable b."
+  },
+  {
+    "exp": 11,
+    "num": 1,
+    "title": "malloc()",
+    "file": "exp11/p1_malloc.c",
+    "stdin": "4\n1 2 3 4\n",
+    "args": [],
+    "note": "malloc reserves memory on the heap for n integers at run time, and returns NULL if it fails. The memory is used like an array and released with free()."
+  },
+  {
+    "exp": 11,
+    "num": 2,
+    "title": "calloc()",
+    "file": "exp11/p2_calloc.c",
+    "stdin": "5\n",
+    "args": [],
+    "note": "calloc reserves memory like malloc but sets every element to zero, which the first output line shows. The array is then filled with new values."
+  },
+  {
+    "exp": 11,
+    "num": 3,
+    "title": "realloc()",
+    "file": "exp11/p3_realloc.c",
+    "stdin": "3\n1 2 3\n2\n4 5\n",
+    "args": [],
+    "note": "realloc makes the array bigger while keeping the old values. A temporary pointer is used so the original array is not lost if realloc fails."
+  },
+  {
+    "exp": 11,
+    "num": 4,
+    "title": "free()",
+    "file": "exp11/p4_free.c",
+    "stdin": "",
+    "args": [],
+    "note": "free() returns heap memory to the system. After freeing, the pointer is set to NULL to avoid using a dangling pointer, and forgetting free() would cause a memory leak."
+  },
+  {
+    "exp": 11,
+    "num": 5,
+    "title": "Dynamically allocate memory for a matrix",
+    "file": "exp11/p5_dynamic_matrix.c",
+    "stdin": "2 3\n1 2 3\n4 5 6\n",
+    "args": [],
+    "note": "An array of row pointers (int **) is allocated first, then each row gets its own array of columns. To free it, every row is freed first and then the array of pointers."
+  },
+  {
+    "exp": 12,
+    "num": 1,
+    "title": "Demonstrate structures, unions and typedef.",
+    "file": "exp12/p1_struct_union_typedef.c",
+    "stdin": "",
+    "args": [],
+    "note": "A struct stores all its members separately, while a union's members share the same memory, so its size is that of the largest member. typedef gives the types shorter names."
+  },
+  {
+    "exp": 12,
+    "num": 2,
+    "title": "Pass structures to functions and manipulate structures using pointers.",
+    "file": "exp12/p2_struct_functions_pointers.c",
+    "stdin": "101 Asha 80\n5\n",
+    "args": [],
+    "note": "display() receives a copy of the structure, so it cannot change the original. add_bonus() receives a pointer and uses -> to update the marks in the original."
+  },
+  {
+    "exp": 12,
+    "num": 3,
+    "title": "Create and write to a text file",
+    "file": "exp12/p3_create_write_file.c",
+    "stdin": "2\n101 Asha 85.5\n102 Ravi 72\n",
+    "args": [],
+    "note": "fopen with mode \"w\" creates students.txt, and fprintf writes one student record per line. The file is closed with fclose when done."
+  },
+  {
+    "exp": 12,
+    "num": 4,
+    "title": "Read and display file contents",
+    "file": "exp12/p4_read_display_file.c",
+    "stdin": "",
+    "args": [],
+    "note": "fopen with mode \"r\" opens students.txt, and fgets reads it one line at a time until the end. If the file does not exist, a clear error message is shown."
+  },
+  {
+    "exp": 12,
+    "num": 5,
+    "title": "Append records to a file",
+    "file": "exp12/p5_append_records.c",
+    "stdin": "1\n103 Kiran 91\n",
+    "args": [],
+    "note": "Mode \"a\" adds new records at the end of students.txt without erasing the old ones. The file is then reopened for reading to display all records."
+  },
+  {
+    "exp": 13,
+    "num": 1,
+    "title": "Demonstrate bitwise operators (AND, OR, XOR, NOT, shift)",
+    "file": "exp13/p1_bitwise_operators.c",
+    "stdin": "12 10\n",
+    "args": [],
+    "note": "Each operator works on the bits of the numbers, and the results are shown in decimal and 8-bit binary. A small function prints the bits using shift and AND."
+  },
+  {
+    "exp": 13,
+    "num": 2,
+    "title": "Demonstrate bit fields in a structure",
+    "file": "exp13/p2_bit_fields.c",
+    "stdin": "15 8 2024\n",
+    "args": [],
+    "note": "Bit fields let a structure member use only a fixed number of bits, so a date fits in 16 bits. The size is compared with an ordinary structure holding the same data."
+  },
+  {
+    "exp": 13,
+    "num": 3,
+    "title": "Demonstrate enumerations (e.g., days of week, traffic light states)",
+    "file": "exp13/p3_enumerations.c",
+    "stdin": "5\n2\n",
+    "args": [],
+    "note": "An enum gives names to integer constants, starting from 0. A switch statement uses these names to decide whether it is a weekend and what a traffic light means."
+  },
+  {
+    "exp": 13,
+    "num": 4,
+    "title": "Demonstrate command line arguments (sum of numbers passed as arguments)",
+    "file": "exp13/p4_command_line_sum.c",
+    "stdin": "",
+    "args": [
+      "10",
+      "20",
+      "30"
+    ],
+    "note": "The values typed after the program name are stored as strings in argv. The program converts each one to an integer with atoi and adds them up, and prints a usage message if none are given."
+  },
+  {
+    "exp": 13,
+    "num": 5,
+    "title": "Demonstrate macros and preprocessor directives (#define, #ifdef, conditional compilation)",
+    "file": "exp13/p5_macros_preprocessor.c",
+    "stdin": "7\n",
+    "args": [],
+    "note": "#define creates constants and function-like macros, which the preprocessor replaces before compilation. #ifdef, #ifndef and #if include or skip code depending on conditions, and __LINE__ gives the current line number."
+  }
+]
