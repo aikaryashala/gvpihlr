@@ -118,3 +118,7 @@ in the bottom left remove the text "AI KARYASHALA" in slides.
   - **Prototypes:** all Experiment 5 programs declare prototypes before `main`.
   - **Repo status:** I only added files under `docs/c-lab/programs/exp01`-`exp05`. `git status` also shows `docs/index.html`, `docs/style.css` and `tools/` as changed or untracked; those are not mine.
 </agent-message>
+
+---
+
+commit and push all the changes
