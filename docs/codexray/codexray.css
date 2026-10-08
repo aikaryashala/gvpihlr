@@ -1,0 +1,28 @@
+/* CodeXRay page – builds on ../style.css and ../c-lab/c-lab.css */
+
+.pipeline {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 24px;
+  counter-reset: stage;
+}
+.pipeline li {
+  counter-increment: stage;
+  padding: 6px 12px;
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: 2px;
+  font-family: "JetBrains Mono", monospace;
+  font-size: 12.5px;
+}
+.pipeline li::before { content: counter(stage) " "; color: var(--rust); font-weight: 700; }
+.pipeline li:last-child { border-color: var(--teal); color: var(--teal); }
+
+.steps { margin-left: 22px; line-height: 1.8; color: var(--muted); }
+.steps strong { color: var(--ink); }
+.steps a { color: var(--rust); font-weight: 600; }
+code { font-family: "JetBrains Mono", monospace; font-size: .92em; }
+.how-to { padding-top: 0; }
+.how-to .subhead { margin-top: 0; }
