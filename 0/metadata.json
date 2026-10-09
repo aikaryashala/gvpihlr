@@ -1,0 +1,85 @@
+{
+  "cli_version": "0.11.4",
+  "checkpoint_id": "01M4FX9V0S7X236P5MRS1M8DCB",
+  "session_id": "6acee620-de39-4cd1-8b8d-ea53e7a9900a",
+  "strategy": "manual-commit",
+  "created_at": "2026-10-09T08:43:30.491201Z",
+  "branch": "main",
+  "checkpoints_count": 1,
+  "save_step_count": 1,
+  "files_touched": [
+    "docs/index.html",
+    "docs/material/index.html",
+    "docs/material/material.css",
+    "docs/style.css"
+  ],
+  "agent": "Claude Code",
+  "model": "claude-fable-5-1",
+  "turn_id": "86448226ae0f",
+  "checkpoint_transcript_start": 141,
+  "transcript_lines_at_start": 141,
+  "compact_transcript_start": 16,
+  "token_usage": {
+    "input_tokens": 354,
+    "cache_creation_tokens": 39986,
+    "cache_read_tokens": 993852,
+    "output_tokens": 14031,
+    "api_call_count": 12
+  },
+  "session_metrics": {
+    "turn_count": 2
+  },
+  "initial_attribution": {
+    "calculated_at": "2026-10-09T08:43:30.422059Z",
+    "agent_lines": 308,
+    "agent_removed": 7,
+    "human_added": 0,
+    "human_modified": 1,
+    "human_removed": 0,
+    "total_committed": 309,
+    "total_lines_changed": 316,
+    "agent_percentage": 99.68354430379746,
+    "metric_version": 2
+  },
+  "prompt_attributions": [
+    {
+      "checkpoint_number": 1,
+      "user_lines_added": 3919,
+      "user_lines_removed": 0,
+      "agent_lines_added": 0,
+      "agent_lines_removed": 0,
+      "user_added_per_file": {
+        "docs/material/assets/viewer.css": 298,
+        "docs/material/assets/viewer.js": 183,
+        "docs/material/task1/equations_vs_assignments_answers.html": 39,
+        "docs/material/task1/equations_vs_assignments_answers.md": 111,
+        "docs/material/task1/equations_vs_assignments_questions.html": 39,
+        "docs/material/task1/equations_vs_assignments_questions.md": 161,
+        "docs/material/task1/equations_vs_assignments_worksheet.html": 41,
+        "docs/material/task1/equations_vs_assignments_worksheet.md": 202,
+        "docs/material/task2/variables_and_arithmetic_answers.html": 40,
+        "docs/material/task2/variables_and_arithmetic_answers.md": 165,
+        "docs/material/task2/variables_and_arithmetic_questions.html": 40,
+        "docs/material/task2/variables_and_arithmetic_questions.md": 352,
+        "docs/material/task2/variables_and_arithmetic_worksheet.html": 42,
+        "docs/material/task2/variables_and_arithmetic_worksheet.md": 290,
+        "docs/material/task3/print_statement_paper.html": 41,
+        "docs/material/task3/print_statement_paper.md": 383,
+        "docs/material/task3/print_statement_paper_answers.html": 41,
+        "docs/material/task3/print_statement_paper_answers.md": 209,
+        "docs/material/task3/print_statement_worksheet.html": 42,
+        "docs/material/task3/print_statement_worksheet.md": 391,
+        "docs/material/task4/sms_templates_answers.html": 39,
+        "docs/material/task4/sms_templates_answers.md": 86,
+        "docs/material/task4/sms_templates_extra_answers.html": 39,
+        "docs/material/task4/sms_templates_extra_answers.md": 92,
+        "docs/material/task4/sms_templates_extra_questions.html": 39,
+        "docs/material/task4/sms_templates_extra_questions.md": 77,
+        "docs/material/task4/sms_templates_questions.html": 39,
+        "docs/material/task4/sms_templates_questions.md": 115,
+        "docs/material/task4/sms_templates_worksheet.html": 41,
+        "docs/material/task4/sms_templates_worksheet.md": 242
+      }
+    }
+  ]
+}

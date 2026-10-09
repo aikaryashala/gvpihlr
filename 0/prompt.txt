@@ -1,0 +1,6 @@
+<pasted_content id="a53b">
+in @index.html their is a place holder material. Now link it to @material/index.html
+  which will be a new page. in the same style of the remaining pages. List down the task
+  as large rectangular boxes, each containing the Topic Name, Questions, Answers, Extra
+  Questions and Extra Answers where needed. Make it beautiful.
+</pasted_content id="a53b">
