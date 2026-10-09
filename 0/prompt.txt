@@ -1,0 +1,13 @@
+In material task4, review any tasks that can be reduced. which are redundant
+
+---
+
+minimize it.
+
+---
+
+fixed exam name, fixed website, centre and city split. Remove such examples. Is it best remove these are keep them. Let's make everything into varaible. what do you suggest?
+
+---
+
+agreed, go ahead
