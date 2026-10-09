@@ -4,16 +4,16 @@
 
 **You need:** a notebook, a pencil, and the state-table method from Task 1.
 
-This sheet is written like a song: one **pallavi** (పల్లవి) — the rule we return to after every verse — and a series of **charanams** (చరణాలు) — verses that each add one new idea.
+This sheet is built like a game: one **golden rule** that holds at every level, and a series of **levels** — each level adds one new idea, and you clear it before moving to the next.
 
-> **Pallavi — the golden rule of this sheet**
+> **Golden rule of this sheet**
 > In maths, `=` states a **fact**: "the two sides are equal."
 > In computing, `=` gives an **instruction**: "compute the right side with the current values, then store the result into the name on the left."
 > So in computing, read `=` as **"becomes"** — never as "equals".
 
 ---
 
-## Charanam 1 — One line, two readings
+## Level 1 — One line, two readings
 
 **a. What we set up**
 
@@ -53,7 +53,7 @@ In maths the line does nothing — it only tells you a fact that is true. In com
 
 ---
 
-## Charanam 2 — The left side must be one box name
+## Level 2 — The left side must be one box name
 
 **a. What we set up**
 
@@ -78,7 +78,7 @@ For the same reason `5 = a` is not allowed: `5` is not a box. Maths can write bo
 
 ---
 
-## Charanam 3 — `a = a + 2`: an impossible fact, an everyday instruction
+## Level 3 — `a = a + 2`: an impossible fact, an everyday instruction
 
 **a. What we set up**
 
@@ -105,7 +105,7 @@ You traced lines like this all through Task 1. Now you know why they look strang
 
 ---
 
-## Charanam 4 — Every multiplication is written
+## Level 4 — Every multiplication is written
 
 **a. What we set up**
 
@@ -164,7 +164,7 @@ b = b - a
 
 **Check yourself:** P1 — allowed; not allowed (`b = a + 4`); allowed; not allowed (`c = 2 * b`); not allowed (`c = 7`). P2 — `a: 4 → 6`, then `b: 12 → 6`.
 
-If any line surprised you, re-read the charanam it comes from.
+If any line surprised you, re-read the level it comes from.
 
 ---
 
@@ -184,19 +184,3 @@ If any line surprised you, re-read the charanam it comes from.
 2. Left of `=`: exactly one box name. Right of `=`: the calculation.
 3. Right side first, with current values — then store into the left name.
 4. Every multiplication is written with `*`.
-
----
-
-## New Words (కొత్త పదాలు — తెలుగు అర్థాలు)
-
-| English | తెలుగు | Meaning |
-|---|---|---|
-| equation | సమీకరణం | రెండు వైపులా విలువ సమానం అని చెప్పే గణిత వాక్యం |
-| assignment | విలువ ఇవ్వడం | కుడి వైపు ఫలితాన్ని ఎడమ వైపు పెట్టెలో పెట్టే ఆదేశం |
-| fact | వాస్తవం | నిజమని చెప్పే మాట — అది ఏ పనీ చేయదు |
-| instruction | ఆదేశం | కంప్యూటర్ చేయవలసిన ఒక పని |
-| becomes | అవుతుంది | కోడ్‌లో `=` ను చదవవలసిన సరైన మాట — "సమానం" కాదు |
-| left side | ఎడమ వైపు | ఫలితం చేరే ఒకే ఒక పెట్టె పేరు |
-| right side | కుడి వైపు | ముందుగా లెక్కించే భాగం (సమాసం) |
-| allowed | అనుమతించబడినది | కంప్యూటింగ్‌లో రాయదగిన లైన్ |
-| rewrite | తిరిగి రాయడం | గణిత రూపాన్ని కంప్యూటింగ్ రూపంలోకి మార్చడం |

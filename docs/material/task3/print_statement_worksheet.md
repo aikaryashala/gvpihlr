@@ -6,15 +6,15 @@
 
 **The cell method.** Write every output on graph paper, one letter or digit per cell. A **space gets its own cell too** — leave it empty and put a small dot `·` in it. On this page, outputs appear in the same cell style, so you can check your paper against the screen, cell by cell.
 
-This sheet is written like a song: one **pallavi** (పల్లవి) — the rule we return to after every verse — and a series of **charanams** (చరణాలు) — verses that each add one new idea.
+This sheet is built like a game: one **golden rule** that holds at every level, and a series of **levels** — each level adds one new idea, and you clear it before moving to the next.
 
-> **Pallavi — the golden rule of this sheet**
+> **Golden rule of this sheet**
 > `print` shows **exactly** what you wrote between the quotes — nothing more, nothing less.
 > The quotes themselves are **not** printed, and a space fills a cell of output just like a letter does.
 
 ---
 
-## Charanam 1 — `print` shows a string
+## Level 1 — `print` shows a string
 
 **a. What we set up**
 
@@ -40,7 +40,7 @@ Five cells — the quotes are **not** printed. They only mark where the string b
 
 ---
 
-## Charanam 2 — `+` glues two strings
+## Level 2 — `+` glues two strings
 
 **a. What we set up**
 
@@ -64,7 +64,7 @@ Seven cells, no gap. `+` glues the second string to the end of the first — and
 
 ---
 
-## Charanam 3 — Spaces live inside quotes
+## Level 3 — Spaces live inside quotes
 
 **a. What we set up**
 
@@ -100,7 +100,7 @@ The first two outputs are **identical** — the space can sit at the end of the 
 
 ---
 
-## Charanam 4 — A variable inside a print
+## Level 4 — A variable inside a print
 
 **a. What we set up**
 
@@ -127,7 +127,7 @@ om shambo
 
 ---
 
-## Charanam 5 — Numbers print as digits, and the glue rule still applies
+## Level 5 — Numbers print as digits, and the glue rule still applies
 
 **a. What we set up**
 
@@ -160,7 +160,7 @@ print age + " years old."
 
 ---
 
-## Charanam 6 — Building a whole sentence
+## Level 6 — Building a whole sentence
 
 **a. What we set up**
 
@@ -212,7 +212,7 @@ Each `", "` fills just two cells — a comma and a space — glued between the v
 
 ---
 
-## Charanam 7 — Do the maths first; print only glues
+## Level 7 — Do the maths first; print only glues
 
 **a. What we set up**
 
@@ -239,7 +239,7 @@ Line 3 is ordinary Task-1 arithmetic: `c` becomes `5`. The print line does **no 
 
 ---
 
-## Charanam 8 — `\n`, the Enter
+## Level 8 — `\n`, the Enter
 
 **a. What we set up**
 
@@ -276,7 +276,7 @@ The `\n` is glued at the end of the string like anything else you write — it j
 
 ---
 
-## Charanam 9 — `\n` in the middle starts a new row
+## Level 9 — `\n` in the middle starts a new row
 
 **a. What we set up**
 
@@ -351,7 +351,7 @@ num3 = 3
 
 **Check yourself:** P1 — `omnamah`; `om  namah` (two empty cells); `om siva↵`; `om↵` then `namah` on the next row. P2 — `print name + " is " + age + " years old.\n"`. P3 — `print num1 + ", " + num2 + ", " + num3 + "."`.
 
-If any space surprised you, re-read the charanam it comes from.
+If any space surprised you, re-read the level it comes from.
 
 ---
 
@@ -374,18 +374,3 @@ If any space surprised you, re-read the charanam it comes from.
 3. A variable in a print is replaced by its current value.
 4. Compute in assignment lines; print only glues.
 5. Check cell by cell on graph paper — a space is an empty cell with a dot.
-
----
-
-## New Words (కొత్త పదాలు — తెలుగు అర్థాలు)
-
-| English | తెలుగు | Meaning |
-|---|---|---|
-| print | ముద్రించు | తెరపై అక్షరాలను చూపించే ఆదేశం |
-| string | అక్షరాల వరుస | quotes (`" "`) మధ్య ఉండే అక్షరాల వరుస |
-| quotes | కొటేషన్ గుర్తులు | string ఎక్కడ మొదలై ఎక్కడ ముగుస్తుందో చూపే గుర్తులు |
-| output | అవుట్‌పుట్ / ఫలితం | తెరపై కనిపించే అక్షరాలు |
-| space | ఖాళీ | పదాల మధ్య ఖాళీ చోటు — అదీ output లో భాగమే |
-| cell | గడి | గ్రాఫ్ కాగితంలో ఒక్కో గుర్తుకు ఒక్కో గడి |
-| glue / join | కలపడం | `+` తో రెండు ముక్కలను చివర చివరకు అతికించడం |
-| newline | కొత్త లైన్ | Enter నొక్కినట్టు — `\n` గా రాసి, `↵` గా గీస్తాం |

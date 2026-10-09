@@ -4,16 +4,16 @@
 
 **You need:** a notebook, a pencil, and the one golden rule below.
 
-This sheet is written like a song: one **pallavi** (పల్లవి) — the rule we return to after every verse — and a series of **charanams** (చరణాలు) — verses that each add one new idea.
+This sheet is built like a game: one **golden rule** that holds at every level, and a series of **levels** — each level adds one new idea, and you clear it before moving to the next.
 
-> **Pallavi — the golden rule of `=`**
+> **Golden rule of `=`**
 > In code, `=` is not the "equals" of maths. It is an instruction:
 > **first compute the right side using the current values, then store the result into the name on the left.**
 > Whatever the name held before is thrown away.
 
 ---
 
-## Charanam 1 — A name holds a value
+## Level 1 — A name holds a value
 
 **a. What we set up**
 
@@ -40,7 +40,7 @@ There is now a name `a`, and it holds `5`. That is the entire program. A **varia
 
 ---
 
-## Charanam 2 — A new value replaces the old one
+## Level 2 — A new value replaces the old one
 
 **a. What we set up**
 
@@ -65,7 +65,7 @@ After line 2, the `5` is gone — completely. A box holds **one** value; storing
 
 ---
 
-## Charanam 3 — A variable can use its own value
+## Level 3 — A variable can use its own value
 
 **a. What we set up**
 
@@ -90,7 +90,7 @@ a: 5 → 8
 
 ---
 
-## Charanam 4 — The same variable, updated again and again
+## Level 4 — The same variable, updated again and again
 
 **a. What we set up**
 
@@ -129,7 +129,7 @@ Each line only sees the value the previous line left behind. This state table is
 
 ---
 
-## Charanam 5 — Division keeps only the whole part
+## Level 5 — Division keeps only the whole part
 
 **a. What we set up**
 
@@ -157,7 +157,7 @@ Check: `5 * 3 + 2 = 17`. The pair `/` and `%` split a number perfectly.
 
 ---
 
-## Charanam 6 — A second variable
+## Level 6 — A second variable
 
 **a. What we set up**
 
@@ -191,7 +191,7 @@ Line 2 **reads** `a` but does not change it — only the name on the **left** of
 
 ---
 
-## Charanam 7 — Three variables and operator order
+## Level 7 — Three variables and operator order
 
 **a. What we set up**
 
@@ -249,7 +249,7 @@ a = c / 3
 
 **Check yourself:** P1 — `a: 3 → 7 → 14`. P2 — `a: 20 → 6 → 2`. P3 — `c = 6`, then `a = 2`, `b` stays `2`.
 
-If any line surprised you, re-read the charanam it comes from — every practice line uses exactly one takeaway.
+If any line surprised you, re-read the level it comes from — every practice line uses exactly one takeaway.
 
 ---
 
@@ -271,20 +271,3 @@ If any line surprised you, re-read the charanam it comes from — every practice
 3. `/` keeps only the whole part; `%` gives what `/` dropped.
 4. Brackets first, then `*` `/` `%`, then `+` `-`.
 5. Trace line by line in a state table — never in your head.
-
----
-
-## New Words (కొత్త పదాలు — తెలుగు అర్థాలు)
-
-| English | తెలుగు | Meaning |
-|---|---|---|
-| variable | చరరాశి | విలువను పట్టుకునే, పేరు ఉన్న పెట్టె |
-| value | విలువ | పెట్టెలో ప్రస్తుతం ఉన్న సంఖ్య |
-| assignment | విలువ ఇవ్వడం | కుడి వైపు ఫలితాన్ని ఎడమ వైపు పేరులో పెట్టడం |
-| update | మార్చడం | పాత విలువ పోయి కొత్త విలువ రావడం |
-| state | స్థితి | ఒక్కో లైన్ తర్వాత చరరాశుల విలువలు |
-| trace | అనుసరించడం | లైన్ వెంబడి లైన్ విలువలను రాయడం |
-| quotient | భాగఫలం | భాగించగా వచ్చే పూర్ణ సంఖ్య (`/`) |
-| remainder | శేషం | భాగించగా మిగిలిన సంఖ్య (`%`) |
-| expression | సమాసం | గుర్తులతో కలిపి రాసిన లెక్క (`=` కుడి వైపు భాగం) |
-| precedence | ప్రాధాన్యత | ఏ గుర్తు లెక్క ముందు జరుగుతుందో చెప్పే క్రమం |

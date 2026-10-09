@@ -4,15 +4,15 @@
 
 **You need:** a notebook, a pencil, and the print-statement rules from Task 3.
 
-This sheet is written like a song: one **pallavi** (పల్లవి) — the rule we return to after every verse — and a series of **charanams** (చరణాలు) — verses that each add one new idea.
+This sheet is built like a game: one **golden rule** that holds at every level, and a series of **levels** — each level adds one new idea, and you clear it before moving to the next.
 
-> **Pallavi — the golden rule of this sheet**
+> **Golden rule of this sheet**
 > In an SMS, the words that are the **same for every customer** live inside quotes; the pieces that **change** are variables.
 > Ask of every piece: *"would this change for another customer?"* — and cut the string exactly where the answer becomes yes.
 
 ---
 
-## Charanam 1 — Two customers, one program
+## Level 1 — Two customers, one program
 
 **a. What we set up**
 
@@ -44,7 +44,7 @@ Check the gluing: `"Hello "` ends with a space, `", your OTP is "` carries the c
 
 ---
 
-## Charanam 2 — You get only one copy
+## Level 2 — You get only one copy
 
 **a. What we set up**
 
@@ -56,7 +56,7 @@ Your recharge of Rs.199 is successful. New balance: Rs.240.
 
 **b. Task**
 
-For each piece of the message ask the pallavi question: *would this change for another customer?* Underline the pieces where the answer is yes.
+For each piece of the message ask the golden-rule question: *would this change for another customer?* Underline the pieces where the answer is yes.
 
 **c. Observation (what you should find)**
 
@@ -72,7 +72,7 @@ Note the space after the first full stop — it lives inside `" is successful. N
 
 ---
 
-## Charanam 3 — Name the variable by its meaning
+## Level 3 — Name the variable by its meaning
 
 **a. What we set up**
 
@@ -103,7 +103,7 @@ BillAmount       → correct
 
 ---
 
-## Charanam 4 — Cut exactly at the boundary
+## Level 4 — Cut exactly at the boundary
 
 **a. What we set up**
 
@@ -129,7 +129,7 @@ print "Your payment of Rs." + BillAmount + " is successful on BSNL Portal. Ref I
 
 ---
 
-## Charanam 5 — Many variables, same method
+## Level 5 — Many variables, same method
 
 **a. What we set up**
 
@@ -157,7 +157,7 @@ However long the message, the method never changes: walk left to right, cut at e
 
 ---
 
-## Charanam 6 — The ticket: dense, but the same song
+## Boss level — The ticket: dense, but the same game
 
 **a. What we set up**
 
@@ -181,9 +181,9 @@ Three things worth saying out loud:
 
 - `FromCity` is printed **three times** and `ToCity` twice — a variable can appear as many times as the message needs (you practised this in the extra questions of Task 3).
 - Inside the brackets the route is `HYD - PUNE` (spaces around the dash), outside it is `HYD-PUNE` (no spaces) — the strings `"-"` and `" - "` are different, and the message proves it.
-- The helpline and website never change, so they live at the end of the template as plain fixed text — even though they *look* like data. A big number and a web address tempt the eye, but compare with Charanam 5: Flipkart's order link **varied** per order, so it was a variable; TSRTC's website is the same on every ticket, so it is not. **A piece is not a variable because it looks like data — it is a variable because it varies.**
+- The helpline and website never change, so they live at the end of the template as plain fixed text — even though they *look* like data. A big number and a web address tempt the eye, but compare with Level 5: Flipkart's order link **varied** per order, so it was a variable; TSRTC's website is the same on every ticket, so it is not. **A piece is not a variable because it looks like data — it is a variable because it varies.**
 
-**Takeaway to say out loud:** "However dense the message, it is the same song — and a variable can sing many times."
+**Takeaway to say out loud:** "However dense the message, it is the same game — and a variable can appear as many times as needed."
 
 ---
 
@@ -203,7 +203,7 @@ Train 12723 is delayed by 45 mins. Inconvenience regretted.
 
 **Check yourself:** P1 — `print "Dear " + CustomerName + ", Rs." + CashbackAmount + " cashback credited to your Paytm wallet."` P2 — `print "Train " + TrainNo + " is delayed by " + DelayMinutes + " mins. Inconvenience regretted."` (Your variable names may differ — they should still say what the value means.)
 
-If a boundary surprised you, re-read the charanam it comes from.
+If a boundary surprised you, re-read the level it comes from.
 
 ---
 
@@ -226,17 +226,3 @@ If a boundary surprised you, re-read the charanam it comes from.
 | ` is successful on BSNL Portal. Ref Id: ` | fixed | inside quotes |
 | `FCDR2510166695343` | varying | `ReferenceId` |
 | `.` | fixed | inside quotes |
-
----
-
-## New Words (కొత్త పదాలు — తెలుగు అర్థాలు)
-
-| English | తెలుగు | Meaning |
-|---|---|---|
-| SMS / message | సందేశం | ఫోన్‌కు వచ్చే చిన్న సమాచారం |
-| template | మూస | అందరికీ ఒకేలా ఉండే అచ్చు రూపం |
-| fixed | స్థిరమైనది | ప్రతి customer కు మారని భాగం |
-| varying | మారేది | customer కు customer కు మారే భాగం |
-| boundary | సరిహద్దు | స్థిరమైన భాగం, మారే భాగం కలిసే చోటు |
-| meaningful name | అర్థవంతమైన పేరు | విలువ దేని గురించో చెప్పే చరరాశి పేరు |
-| customer | వినియోగదారు | సేవను వాడుకునే వ్యక్తి |

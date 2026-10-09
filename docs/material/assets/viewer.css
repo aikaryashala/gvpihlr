@@ -197,7 +197,7 @@
   .md tbody tr:nth-child(even){background:#FAFBFD;}
   .md tbody tr:last-child td{border-bottom:0;}
   body[data-kind="worksheet"] .md td:first-child{white-space:nowrap;}
-  /* the New Words table holds long Telugu in col 2 — let it wrap */
+  /* the last column can hold long text — let it wrap */
   body[data-kind="worksheet"] .md td:last-child{white-space:normal;}
 
   /* horizontal rules between sections */

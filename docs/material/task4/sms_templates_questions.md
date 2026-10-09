@@ -1,6 +1,6 @@
 # SMS Templates — Question Bank
 
-Answer everything **on paper**. Remember the pallavi: the words that are the same for every customer live inside quotes; the pieces that change are variables. Cut exactly at the boundary — punctuation, spaces, `Rs.`, and labels stay inside the strings. Name every variable by what its value **means**, joining words with a capital at each word (`BillAmount`).
+Answer everything **on paper**. Remember the golden rule: the words that are the same for every customer live inside quotes; the pieces that change are variables. Cut exactly at the boundary — punctuation, spaces, `Rs.`, and labels stay inside the strings. Name every variable by what its value **means**, joining words with a capital at each word (`BillAmount`).
 
 Your variable names may differ from the answer key's — that is fine, as long as they clearly say what the value means. The **strings must match exactly**.
 
