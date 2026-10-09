@@ -1,4 +1,4 @@
-/* CodeXRay page – builds on ../style.css and ../c-lab/c-lab.css */
+/* CodeXRay page – builds on ../style.css */
 
 .pipeline {
   list-style: none;
@@ -26,3 +26,127 @@
 code { font-family: "JetBrains Mono", monospace; font-size: .92em; }
 .how-to { padding-top: 0; }
 .how-to .subhead { margin-top: 0; }
+.small { font-size: 14px; margin-top: 16px; }
+
+/* ── Sample programs ── */
+.experiment {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 64px 20px 0;
+  scroll-margin-top: 60px;
+}
+.experiment h2 { font-size: clamp(22px, 3vw, 28px); margin-bottom: 6px; }
+.experiment .lead { color: var(--muted); margin-bottom: 18px; }
+
+/* ── One program ── */
+.program {
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: 2px;
+  margin-bottom: 10px;
+  scroll-margin-top: 70px;
+}
+.program[open] { border-color: rgba(184, 67, 10, .45); }
+.program summary {
+  cursor: pointer;
+  list-style: none;
+  display: flex;
+  align-items: baseline;
+  gap: 14px;
+  padding: 14px 18px;
+  font-weight: 600;
+}
+.program summary::-webkit-details-marker { display: none; }
+.program summary::after {
+  content: "+";
+  margin-left: auto;
+  font-family: "JetBrains Mono", monospace;
+  color: var(--rust);
+}
+.program[open] summary::after { content: "−"; }
+.program summary:hover { color: var(--rust); }
+.pnum { font-family: "JetBrains Mono", monospace; font-size: 13px; color: var(--rust); min-width: 36px; }
+
+.pbody { padding: 0 18px 18px; }
+.pnote { color: var(--muted); line-height: 1.6; margin-bottom: 14px; font-size: 15px; font-variant-ligatures: none; }
+
+.code-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 8px 14px;
+  background: #2e2925;
+  border-radius: 4px 4px 0 0;
+}
+.fname { font-family: "JetBrains Mono", monospace; font-size: 13px; color: #d9cfc3; }
+.code-actions { display: flex; gap: 8px; }
+.code-actions button,
+.code-actions a {
+  font-family: "Inter Tight", sans-serif;
+  font-size: 12.5px;
+  font-weight: 600;
+  padding: 4px 10px;
+  border: 1px solid #5a514a;
+  border-radius: 2px;
+  background: transparent;
+  color: #e9e1d6;
+  text-decoration: none;
+  cursor: pointer;
+}
+.code-actions button:hover,
+.code-actions a:hover { border-color: #f0b48c; color: #f0b48c; }
+
+pre.code {
+  margin: 0;
+  padding: 16px 18px;
+  background: #1f1b18;
+  color: #e9e1d6;
+  border-radius: 0 0 4px 4px;
+  overflow-x: auto;
+  font-size: 14px;
+  line-height: 1.6;
+}
+pre, pre code { font-family: "JetBrains Mono", monospace; font-variant-ligatures: none; }
+
+/* Syntax colours (highlight.js classes) */
+.hljs-keyword, .hljs-type, .hljs-built_in { color: #f0b48c; }
+.hljs-string { color: #9fd3a8; }
+.hljs-number, .hljs-literal { color: #e6c07b; }
+.hljs-comment { color: #9a8f84; font-style: italic; }
+.hljs-meta, .hljs-meta .hljs-keyword { color: #c9a0dc; }
+.hljs-meta .hljs-string { color: #9fd3a8; }
+.hljs-title, .hljs-title.function_ { color: #8cc4e8; }
+
+/* Output */
+.io {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 10px;
+  margin-top: 12px;
+}
+.io-box { border: 1px solid var(--line); border-radius: 2px; background: var(--cream); }
+.io-box h4 {
+  font-family: "JetBrains Mono", monospace;
+  font-size: 11px;
+  font-weight: 500;
+  color: var(--muted);
+  letter-spacing: .04em;
+  padding: 8px 12px 0;
+}
+.io-box pre {
+  padding: 6px 12px 12px;
+  font-size: 13.5px;
+  line-height: 1.55;
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+.io-out { grid-column: 1 / -1; }
+.io-out pre { color: var(--ink); }
+
+@media (max-width: 768px) {
+  .experiment { padding: 48px 16px 0; }
+  .program summary { padding: 12px 14px; gap: 10px; }
+  .pbody { padding: 0 12px 14px; }
+  pre.code { font-size: 12.5px; padding: 12px; }
+}
