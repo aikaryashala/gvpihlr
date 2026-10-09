@@ -25,18 +25,6 @@ Dear Sita, your parcel will arrive on 21-Jul-25.
 **A2.**
 
 ```sms
-A/c XX4512 credited with Rs.5000 on 12-Jul-25. Avl bal: Rs.18450.
-```
-
-**A3.**
-
-```sms
-Your Jio pack of Rs.299 expires on 20-Jul-25. Recharge now to continue services.
-```
-
-**A4.**
-
-```sms
 Flat 40% off at Trends, Ameerpet till Sunday! Show this SMS at billing.
 ```
 
@@ -49,34 +37,22 @@ Write the print statement that generated each SMS.
 **B1.**
 
 ```sms
-Hello Anu, your OTP is 6032.
+Your Swiggy order 8821 will arrive in 25 mins.
 ```
 
 **B2.**
 
 ```sms
-Your Swiggy order 8821 will arrive in 25 mins.
+A/c XX8907 debited by Rs.720 on 15-Jul-25. Avl bal: Rs.9280.
 ```
 
 **B3.**
 
 ```sms
-Your recharge of Rs.149 is successful. New balance: Rs.163.
+Dear Lakshmi, your appointment is confirmed for 18-Jul-25 at 10:30AM. Token No: 14.
 ```
 
-**B4.**
-
-```sms
-A/c XX8907 debited by Rs.720 on 15-Jul-25. Avl bal: Rs.9280.
-```
-
-**B5.**
-
-```sms
-Dear Lakshmi, your appointment with Dr. Rao is confirmed for 18-Jul-25 at 10:30AM.
-```
-
-**B6.** Now the other direction — the program and its values are given. Write the exact SMS the customer receives:
+**B4.** Now the other direction — the program and its values are given. Write the exact SMS the customer receives:
 
 ```
 CustomerName = "Kiran"
@@ -104,10 +80,22 @@ PNR:4528167390,TRN:12723,DOJ:22-Mar-25,SC-TPTY,VINODKUMAR,S6-34,FARE:970,DEP:07:
 Booking ID:MV88123,KGF Chapter 2,PVR Kukatpally,Screen 4,Seats:D12,D13,20-Apr-25 06:30PM.Total Rs.560.Enjoy the movie!
 ```
 
-**C3.** A flight ticket:
+---
+
+# Part D — More Messages
+
+Same job, two more messages. Watch especially whether two values of the same *kind* get two different *names*.
+
+**D1.** A bank transfer:
 
 ```sms
-PNR:GH6JK,6E-345 HYD-BLR,VINODKUMAR,Seat 21A,DOJ:05-Aug-25,DEP:09:25,Gate 12.Fly IndiGo, web check-in at goindigo.in
+Rs.15000 transferred from A/c XX3401 to A/c XX8266 on 16-Jul-25. Ref No 517209884321. Avl bal: Rs.16450.
+```
+
+**D2.** A train delay:
+
+```sms
+Train 12727 GODAVARI EXP from Hyderabad to Visakhapatnam is delayed by 40 mins. Expected departure 07:25 from platform 6.
 ```
 
 ---

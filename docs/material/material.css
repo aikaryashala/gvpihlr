@@ -104,8 +104,6 @@
 .file--sheet .file-kind { background: var(--rust); }
 .file--q .file-kind { background: var(--teal); }
 .file--a .file-kind { background: #3f3a35; }
-.file--extra { border-style: dashed; }
-.file--extra .file-kind { background: var(--paper); color: var(--teal); border: 1px solid var(--teal); padding: 2px 6px; }
 
 @media (max-width: 768px) {
   .task { grid-template-columns: 1fr; }
