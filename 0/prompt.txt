@@ -1,0 +1,14 @@
+in @docs create a book for this syllabus in simple english, with short sentences. Which students can read, from Vizag. Keep it as simple english as possible and write the meanings of the new word at the end of each chapter. That for each unit, their can be multiple chapters. Keep the book very concise to the point that is needed. Add the links needed to experiment. /Users/rohinibarla/Downloads/4_AI\ Tools\ and\ Applications.pdf
+
+---
+
+<pasted_content id="d962">
+in @docs create a book for this syllabus in simple english, with short sentences.
+  Which students can read, from Vizag. Keep it as simple english as possible and write
+  the meanings of the new word at the end of each chapter. That for each unit, their can
+  be multiple chapters. Keep the book very concise to the point that is needed. Add the
+  links needed to experiment. /Users/rohinibarla/Downloads/4_AI\ Tools\ and\
+  Applications.pdf
+</pasted_content id="d962">
+
+ and make it available to read the book online.
