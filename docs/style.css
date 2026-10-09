@@ -185,6 +185,7 @@ section[id] { scroll-margin-top: 70px; }
 }
 .code-art .k { color: #f0b48c; }
 .code-art .s { color: #9fd3a8; }
+.code-art .c { color: #9a8f84; }
 .talk-copy { padding: 32px; display: flex; flex-direction: column; align-items: flex-start; gap: 4px; }
 .talk-copy .btn { margin-top: 16px; }
 
