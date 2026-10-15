@@ -1,0 +1,9 @@
+add this link https://ready.nirvik.ai/join/ZEN3-PUSY to @docs/index.html above the material block. as a block.
+
+---
+
+The display text for the link is "Start your journey into Cyber Security" and heading "Cyber Security"
+
+---
+
+Remove the instructions about join code and other things
